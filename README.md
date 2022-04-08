@@ -31,11 +31,11 @@ Users should be able to:
 
 DESKTOP DESIGN
 
-![](design/desktop-design.jpg)
+![](Design/desktop-design.jpg)
 
 MOBILE DESIGN
 
-![](design/mobile-design.jpg)
+![](Design/mobile-design.jpg)
 
 ### Links
 
