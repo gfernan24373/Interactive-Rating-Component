@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link id ="bg-primary" rel="stylesheet" href="">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+    <div class="main-container">
+        <!-- Rating state start -->
+        <div class="container-start" id="rating">
+            <div class="circulo"><img src="images/icon-star.svg" alt="" width="13px" height="13px"></div>
+            <h2>How did we do?</h2>
+            <p>Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!</p>
+            <div class="container-circulos">
+                <button data-mode="1" class="circulo" id="one">1</button>
+                <button data-mode="2" class="circulo" id="two">2</button>
+                <button data-mode="3" class="circulo" id="three">3</button>
+                <button data-mode="4" class="circulo" id="four">4</button>
+                <button data-mode="5" class="circulo" id="five">5</button>
+            </div>
+
+            <button class="btn" type="button">SUBMIT</button>
+        </div>
+        <!-- Thank you state start -->
+        <div class="container-thanks" id="thanks">
+            <img src="images/illustration-thank-you.svg" alt="" width="150px" height="100px">
+            <span id="your-rating">You selected <span id="number"></span> out of 5</span>
+
+            <h1>Thank you!</h1>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+        
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">GILBERTO FERNÁNDEZ</a>.
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
